@@ -1,0 +1,124 @@
+<!--comments-->
+<!DOCTYPE html>
+
+<head>
+	<style>
+		h1 {
+  color: #585858;
+  text-align: center;
+  font-family: 'myBrushFont';
+}
+
+body {
+  font-family: "Gill Sans", sans-serif;
+  height: 100%;
+  color: #585858;
+}
+
+@font-face {
+  font-family: 'myBrushFont';
+  src: url('/Users/garce/Library/Fonts/AdelioDarmanto.otf') format('opentype');
+}
+
+a:visited {
+  color: #585858;
+  text-decoration: none;
+}
+
+.boxes {
+  height: 50px;
+  width: 100%;
+  float: top left;
+  font-size: 24px;
+  text-align: center;
+  color: #585858;
+  background-color:#bfddff;
+  padding-top: 20px;
+}
+
+#mybutton {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  height: 75px;
+  background-color: #585858;
+  color:#bfddff;
+  font-size: 30px;
+}
+
+#infowrapper {
+	margin: 0px 10% 35px 10%;
+  text-align: center;
+}
+
+#infowrapper h1 {
+	text-align: center;
+}
+
+.boxes a {
+  padding: 15px;
+  margin-top: 10px;
+}
+
+#footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  float: bottom;
+  text-align:center;
+  height: 150px;
+  background-color: #585858;
+  color: white;
+}
+	</style>
+  <script>
+    var facts = ["I was in a semi viral video with Katy Perry.", 
+    "I was featured on NPR for being an active user of a children's social media site.", 
+    "I started bullet journaling right before my senior year and now run a small Instagram account for it (@badhandwritingbujo ;)).",
+    "I did track and field my freshman year, but I quit after I almost gave myself a concussion with the discus.",
+    "I can play a few basic songs on the ukulele and guitar.",
+    "I went vegetarian for a month and joined the Friends Not Food club, but being vegetarian is very hard so I quit.",
+    "I'm pretty good at origami and find it incredibly relaxing.",
+    "While trying to build a ladder up a tree in my yard, I got my hair caught in a drill. I'm much more cautious with power tools now.",
+    "I have a record collection of over 50 records."];
+  function randomFact() {
+   var i = Math.floor((Math.random() * 9));
+   document.getElementById("info").innerHTML = facts[i];
+  }
+  </script>
+<title>Grace Mcfadden</title>
+</head>
+
+<body>
+<div class = 'boxes'> 
+	<a href = "/Users/garce/Desktop/gfolio.html">home</a>
+	<a href = "sports.html">athletics</a>
+	<a href = "writing.html">writing</a>
+	<a href = "politics.html">activism</a>
+	<a href = "coding.html">coding</a>
+	<a href = "etc.html">etc.</a>
+  <a href = "about.html">about</a>
+</div>
+
+<h1>About Me</h1>
+
+<button id = "mybutton" onclick="randomFact()">Fun Fact Button</button>
+
+<div id = "infowrapper">
+  <p>Want to know a little more about me? Click above for a fun fact!
+  <p id = "info"></p>
+</div>
+
+<div id = "footer">
+<p>17 | Senior</p>
+<p>grace.m.mcfadden@gmail.com</p>
+<p>203-200-9356</p>
+<p>23 Tuxis Road
+Madison, CT
+06443</p>
+</div>
+
+</body>
+</div>
+
+<html>

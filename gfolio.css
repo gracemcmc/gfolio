@@ -1,0 +1,141 @@
+h1 {
+  color: #585858;
+  text-align: center;
+}
+
+body {
+  font-family: "Gill Sans", sans-serif;
+  height: 100%;
+  color: #585858;
+}
+
+@font-face {
+  font-family: 'myBrushFont';
+  src: url('/Users/garce/Library/Fonts/AdelioDarmanto.otf') format('opentype');
+}
+
+a:visited {
+  color: #585858;
+  text-decoration: none;
+}
+
+.boxes {
+  height: 50px;
+  width: 100%;
+  float: top left;
+  font-size: 24px;
+  text-align: center;
+  color: #585858;
+  background-color:#bfddff;
+  padding-top: 20px;
+}
+
+.boxes a {
+  padding: 15px;
+}
+
+.toptext{
+  height: 275px;
+  width: 100%;
+  background-color: #bfddff;
+  overflow-x: hidden;
+  z-index: -1;
+}
+
+/*margin: top right bottom left;*/
+.toptext img {
+  margin: 25px 0px 25px 10%;
+  float: left;
+  height: 200px;
+  width: 200px;
+}
+
+.toptext h1 {
+  font-family: 'myBrushFont';
+  font-size: 90px;
+  float: center;
+}
+
+.headertext {
+  text-align: center;
+  font-size: 36px;
+  font-family: 'myBrushFont';
+}
+
+#whoami {
+  z-index: -1;
+  background-color: #585858;
+  color: white;
+  height: 150px;
+  padding: 20px;
+  text-align: center;
+}
+
+#whoami p {
+  width: 80%;
+  float: center;
+  margin-left: 10%;
+  font-size: 16px;
+}
+
+#thebasics {
+  background-color: white;
+  color: #585858;
+  height: 200px;
+  padding: 20px;
+}
+
+#numbers {
+  float: left;
+  text-align: center;
+  margin-left: 10%;
+  width: 20%;
+}
+
+#numbers ul{
+  text-align: right;
+}
+
+#honors {
+  float: right;
+  width: 20%;
+  margin-right: 10%;
+}
+
+#ap {
+  float: right;
+  width: 20%;
+  margin-right: 10%;
+}
+
+#skills {
+  background-color: #bfddff;
+  color: #585858;
+  height: 250px;
+  padding: 20px;
+  float: center;
+}
+
+#hardskills {
+  margin-left: 10%;
+  float: left;
+  width: 40%;
+  text-align: center;
+}
+
+#softskills {
+  margin-right: 10%;
+  width: 40%;
+  text-align: center;
+  float: right;
+}
+
+#footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  float: bottom;
+  text-align:center;
+  height: 150px;
+  background-color: #585858;
+  color: white;
+}
